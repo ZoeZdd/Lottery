@@ -1,0 +1,13 @@
+//
+//  NavigationViewController.h
+//  11 网易彩票
+//
+//  Created by 庄丹丹 on 16/6/17.
+//  Copyright © 2016年 庄丹丹. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface NavigationViewController : UINavigationController
+
+@end

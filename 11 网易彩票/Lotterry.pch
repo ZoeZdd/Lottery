@@ -1,0 +1,18 @@
+//
+//  Lotterry.pch
+//  11 网易彩票
+//
+//  Created by 庄丹丹 on 2016/10/26.
+//  Copyright © 2016年 庄丹丹. All rights reserved.
+//
+
+#ifndef Lotterry_pch
+#define Lotterry_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+//系统版本判断
+#define iOS7 ([[UIDevice currentDevice].systemVersion doubleValue] > 7.0)
+#define ScreenWidth [UIScreen mainScreen].bounds.size.width
+#define ScreenHeight [UIScreen mainScreen].bounds.size.height
+#endif /* Lotterry_pch */
